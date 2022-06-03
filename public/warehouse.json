@@ -1,0 +1,544 @@
+{
+    "config": {
+        "rack_width": 1.61,
+        "rack_lenght": 0.62,
+        "rack_heigth": 0.97,
+        "warehouse_width": 17,
+        "warehouse_length": 17
+    },
+    "lines": [
+        {
+            "z": -6,
+            "line": [
+                {
+                    "name": "A",
+                    "x": -4.5,
+                    "y": 0,
+                    "culumns": [
+                        {
+                            "id": "A1",
+                            "shelves": [
+                                {
+                                    "name": "A1-1",
+                                    "state": "empty"
+                                },
+                                {
+                                    "name": "A1-2",
+                                    "state": "full"
+                                },
+                                {
+                                    "name": "A1-3",
+                                    "state": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": "A2",
+                            "shelves": [
+                                {
+                                    "name": "A2-1",
+                                    "state": "half-full"
+                                },
+                                {
+                                    "name": "A2-2",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "A2-3",
+                                    "state": "full"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "A3",
+                            "shelves": [
+                                {
+                                    "name": "A3-1",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "A3-2",
+                                    "state": "full"
+                                },
+                                {
+                                    "name": "A3-3",
+                                    "state": "full"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "A4",
+                            "shelves": [
+                                {
+                                    "name": "A4-1",
+                                    "state": "empty"
+                                },
+                                {
+                                    "name": "A4-2",
+                                    "state": "full"
+                                },
+                                {
+                                    "name": "A4-3",
+                                    "state": "full"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "B",
+                    "x": -4.5,
+                    "y": 0,
+                    "culumns": [
+                        {
+                            "id": "B1",
+                            "shelves": [
+                                {
+                                    "name": "B1-1",
+                                    "state": "half-full"
+                                },
+                                {
+                                    "name": "B1-2",
+                                    "state": "full"
+                                },
+                                {
+                                    "name": "B1-3",
+                                    "state": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": "B2",
+                            "shelves": [
+                                {
+                                    "name": "B2-1",
+                                    "state": "l"
+                                },
+                                {
+                                    "name": "B2-2",
+                                    "state": "half-full"
+                                },
+                                {
+                                    "name": "B2-3",
+                                    "state": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": "B3",
+                            "shelves": [
+                                {
+                                    "name": "B3-1",
+                                    "state": "l"
+                                },
+                                {
+                                    "name": "B3-2",
+                                    "state": "full"
+                                },
+                                {
+                                    "name": "B3-3",
+                                    "state": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": "B4",
+                            "shelves": [
+                                {
+                                    "name": "B4-1",
+                                    "state": "half-full"
+                                },
+                                {
+                                    "name": "B4-2",
+                                    "state": "empty"
+                                },
+                                {
+                                    "name": "B4-3",
+                                    "state": "full"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "z": -2,
+            "line": [
+                {
+                    "name": "C",
+                    "x": -4.5,
+                    "y": 0,
+                    "culumns": [
+                        {
+                            "id": "C1",
+                            "shelves": [
+                                {
+                                    "name": "C1-1",
+                                    "state": "full"
+                                },
+                                {
+                                    "name": "C1-2",
+                                    "state": "half-full"
+                                },
+                                {
+                                    "name": "C1-3",
+                                    "state": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": "C2",
+                            "shelves": [
+                                {
+                                    "name": "C2-1",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "C2-2",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "C2-3",
+                                    "state": "full"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "C3",
+                            "shelves": [
+                                {
+                                    "name": "C3-1",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "C3-2",
+                                    "state": "full"
+                                },
+                                {
+                                    "name": "C3-3",
+                                    "state": "empty"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "C4",
+                            "shelves": [
+                                {
+                                    "name": "C4-1",
+                                    "state": "half-full"
+                                },
+                                {
+                                    "name": "C4-2",
+                                    "state": "half-full"
+                                },
+                                {
+                                    "name": "C4-3",
+                                    "state": "half-full"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "D",
+                    "x": -4.5,
+                    "y": 0,
+                    "culumns": [
+                        {
+                            "id": "D1",
+                            "shelves": [
+                                {
+                                    "name": "D1-1",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "D1-2",
+                                    "state": "half-full"
+                                },
+                                {
+                                    "name": "D1-3",
+                                    "state": "full"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "D2",
+                            "shelves": [
+                                {
+                                    "name": "D2-1",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "D2-2",
+                                    "state": "empty"
+                                },
+                                {
+                                    "name": "empty",
+                                    "state": "full"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "D3",
+                            "shelves": [
+                                {
+                                    "name": "D3-1",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "D3-2",
+                                    "state": "empty"
+                                },
+                                {
+                                    "name": "D3-3",
+                                    "state": "empty"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "D4",
+                            "shelves": [
+                                {
+                                    "name": "D4-1",
+                                    "state": "full"
+                                },
+                                {
+                                    "name": "D5-2",
+                                    "state": "half-full"
+                                },
+                                {
+                                    "name": "D5-3",
+                                    "state": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "z": 2,
+            "line": [
+                {
+                    "name": "E",
+                    "x": -4.5,
+                    "y": 0,
+                    "culumns": [
+                        {
+                            "id": "E1",
+                            "shelves": [
+                                {
+                                    "name": "E1-1",
+                                    "state": "half-full"
+                                },
+                                {
+                                    "name": "E1-2",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "E1-3",
+                                    "state": "full"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "E2",
+                            "shelves": [
+                                {
+                                    "name": "E2-1",
+                                    "state": "full"
+                                },
+                                {
+                                    "name": "E2-2",
+                                    "state": "full"
+                                },
+                                {
+                                    "name": "E2-3",
+                                    "state": "full"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "E3",
+                            "shelves": [
+                                {
+                                    "name": "E3-1",
+                                    "state": "empty"
+                                },
+                                {
+                                    "name": "E3-2",
+                                    "state": "empty"
+                                },
+                                {
+                                    "name": "E3-3",
+                                    "state": "empty"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "E4",
+                            "shelves": [
+                                {
+                                    "name": "E4-1",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "E4-2",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "E4-3",
+                                    "state": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "F",
+                    "x": -4.5,
+                    "y": 0,
+                    "culumns": [
+                        {
+                            "id": "F1",
+                            "shelves": [
+                                {
+                                    "name": "F1-1",
+                                    "state": "half-full"
+                                },
+                                {
+                                    "name": "F1-2",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "F1-3",
+                                    "state": "full"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "F2",
+                            "shelves": [
+                                {
+                                    "name": "F2-1",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "F2-2",
+                                    "state": "empty"
+                                },
+                                {
+                                    "name": "F2-3",
+                                    "state": "full"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "F3",
+                            "shelves": [
+                                {
+                                    "name": "F3-1",
+                                    "state": "empty"
+                                },
+                                {
+                                    "name": "F3-2",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "F3-3",
+                                    "state": "full"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "F4",
+                            "shelves": [
+                                {
+                                    "name": "F4-1",
+                                    "state": "half-full"
+                                },
+                                {
+                                    "name": "F4-2",
+                                    "state": "half-full"
+                                },
+                                {
+                                    "name": "F4-3",
+                                    "state": "full"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "z":6,
+            "line": [
+                {
+                    "name": "G",
+                    "x": -4.5,
+                    "y": 0,
+                    "culumns": [
+                        {
+                            "id": "G1",
+                            "shelves": [
+                                {
+                                    "name": "G1-1",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "G1-2",
+                                    "state": "full"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "G2",
+                            "shelves": [
+                                {
+                                    "name": "G2-1",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "G2-2",
+                                    "state": "half-full"
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "id": "G3",
+                            "shelves": [
+                                {
+                                    "name": "G3-1",
+                                    "state": "empty"
+                                },
+                                {
+                                    "name": "G3-2",
+                                    "state": "empty"
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "id": "G4",
+                            "shelves": [
+                                {
+                                    "name": "G4-1",
+                                    "state": ""
+                                },
+                                {
+                                    "name": "G4-2",
+                                    "state": ""
+                                }
+                                
+                            ]
+                        }
+                    ]
+                }
+                
+            ]
+        }
+    ]
+}
